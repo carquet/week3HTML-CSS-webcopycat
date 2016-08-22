@@ -3,10 +3,120 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<title>Document</title>
 </head>
 <body>
-<!--If you want to add a second class to the element you need to use the same declaration. A common mistake is to have two class declarations. Any class declaration after the first one will be ignored. --> 
-	<div class="container"></div>
+	<header class="container">
+		<div class="row">
+			<div class="col-md-4 branding">
+				<h1>REVERA</h1>
+			</div>
+			<nav class="col-md-8 mainmenu">
+				<ul class="menu">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Sample Page</a></li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Parent Page</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+	</div></header>
+
+
+	
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img  class="images" src="public/hiking.jpg" alt="dog and cat">
+      <div class="carousel-caption"><h2>ETIAM MAURIS TORTOR, PHARETRA QUIS LOBORTIS IN, PHARETRA IN DIAM</h2>
+Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]
+<a class="btn btn-default button" href="#" role="button">READ MORE</a>
+      </div>
+    </div>
+    <div class="item">
+      <img  class="images" src="public/coquelicot.jpg" alt="kitten">
+      <div class="carousel-caption">
+		<h2>ETIAM MAURIS TORTOR, PHARETRA QUIS LOBORTIS IN, PHARETRA IN DIAM</h2>
+Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]
+<a class="btn btn-default button" href="#" role="button">READ MORE</a>
+      </div>
+    </div>
+    <div class="item">
+      <img  class="images" src="public/coffee.jpg" alt="kitten">
+      <div class="carousel-caption">
+		<h2>ETIAM MAURIS TORTOR, PHARETRA QUIS LOBORTIS IN, PHARETRA IN DIAM</h2>
+Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]
+<a class="btn btn-default button" href="#" role="button">READ MORE</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+	
+
+
+	<section class="container-fluid description">
+		<div class="row">
+			<div class="col-md-4">
+			<div class="icon"><div class="glyphicon glyphicon-glass"></div></div>
+			<h3>Web design</h3>
+			<p>you can make super mega awesome design with our super mega awesome stuff.</p>
+			</div>
+			<div class="col-md-4">
+			<div class="icon"><div class="glyphicon glyphicon-star"></div></div>
+			<h3>Web development</h3>
+			<p>And on top of that you can be as sexy as shit when you show your skill as a web developper.</p>
+			</div>
+			<div class="col-md-4">
+			<div class="icon"><div class="glyphicon glyphicon-heart"></div></div>
+			<h3>User Interface</h3>
+			<p>You know your client : dont use them and lose them!</p>
+			</div>
+	</section>
+	<aside>
+		<div><h3>Latest Project</h3>
+		<h4>Few of the latest folio items</h4>
+			<div class="row">
+				<div class="col-md-3"><img class ="project" src="public/hotty.jpg"><p>Super hotties doing sports</p></div>
+				<div class="col-md-3"><img  class ="project" src="public/kitty.jpg"><p>lovely kitty doing nothng</p></div>
+				<div class="col-md-3"><img class ="project" src="public/happy.jpg"><p>women running wild with big wet dogs</p></div>
+				<div class="col-md-3"><img class ="project" src="public/roses.jpg"><p>roses in water</p></div>
+			</div>
+		<div><h3>Latest article</h3>
+		<h4></h4></div>	
+			<div class="row">
+				<div class="col-md-3"></div>
+				<div class="col-md-3"></div>
+				<div class="col-md-3"></div>
+				<div class="col-md-3"></div>
+			</div>
+
+			<div class="row">
+				
+			</div>
+	</aside>
 </body>
 </html>

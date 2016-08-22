@@ -1,0 +1,60 @@
+.container-fluid {
+	background-color: pink;
+	poisition: relative;
+
+}
+nav {
+	margin-top: 30px;
+}
+.menu li{
+	display: inline;
+	margin: 5px;
+}
+li a {
+	color: grey;
+	text-decoration: none;
+}
+
+.description {
+	background-color: #ed564b;
+	text-align: center;
+	color: #fff;
+	padding-top: 10px ;
+	padding-bottom: 30px;
+	
+}
+.title {
+	text-align: center;
+	background-color: transparent;
+}
+.carousel-inner {
+	text-align: center;
+}
+
+.images {
+	width: 100%;
+}
+.icon {
+	border: 4px solid white;
+	height: 50px;
+	width: 50px;
+	margin:auto;
+	border-radius: 30px;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+}
+
+.button {
+	opacity: 0.5;
+	border: 1px solid grey;
+	padding: 5px 20px;
+	color: grey;
+}
+ aside {
+ 	padding: 20px;
+ }
+.project {
+	height: auto;
+	max-width: 100%;
+}
